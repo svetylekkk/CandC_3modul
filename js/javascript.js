@@ -196,9 +196,11 @@ document.addEventListener('DOMContentLoaded', () => {
         tracks.forEach(spinTrack)
       })
     })
-    document.querySelectorAll('.cardFlip-content').forEach((card) => {
-      card.addEventListener('click', () => {
-        card.classList.toggle('is-flipped')
+    ddocument.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.cardFlip-content').forEach((card) => {
+        card.addEventListener('click', () => {
+          card.classList.toggle('is-flipped')
+        })
       })
     })
   })
