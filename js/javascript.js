@@ -192,6 +192,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         track.style.transform = `translateY(-${offset}vw)`
       }, index * 400)
+      lever.addEventListener('click', () => {
+        tracks.forEach(spinTrack)
+      })
+    })
+    document.querySelectorAll('.cardFlip-content').forEach((card) => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('is-flipped')
+      })
     })
   })
 })
