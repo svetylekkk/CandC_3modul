@@ -717,15 +717,14 @@ html {
   background-position: center;
 }
 
-/* FRONT */
 .cardFlip-inside--front {
   z-index: 2;
 }
 
-/* BACK */
 .cardFlip-inside--back {
   transform: rotateY(180deg);
 }
+
 .text_card1 {
   width: 37vw;
   height: 3vw;

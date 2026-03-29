@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     './images/sl8.svg'
   ]
 
-  // создаём символы
   function createReel(track) {
     for (let i = 0; i < 40; i++) {
       const icon = icons[Math.floor(Math.random() * icons.length)]
@@ -36,12 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   tracks.forEach(createReel)
 
-  // 🔥 получаем реальную высоту символа (КЛЮЧЕВОЕ ИСПРАВЛЕНИЕ)
   function getSymbolHeight(track) {
     return track.querySelector('.symbol').offsetHeight
   }
 
-  // плавная остановка по сетке
   function spinTrack(track, index) {
     track.style.transition = 'none'
     track.style.transform = 'translateY(0px)'
@@ -53,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const randomIndex = Math.floor(Math.random() * 25) + 10
 
-      // 🔥 ВАЖНО: считаем в PX, не VW
       const offset = randomIndex * symbolHeight
 
       track.style.transform = `translateY(-${offset}px)`
