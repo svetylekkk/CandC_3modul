@@ -11,7 +11,7 @@ let currentStep = 0
 let isRolling = false
 
 const positions = [
-  { top: 47, left: 76 }, // 0 — старт
+  { top: 47, left: 76 }, // 0 старт
   { top: 47, left: 62 }, // 1
   { top: 47, left: 48 }, // 2
   { top: 47, left: 34 }, // 3
@@ -19,7 +19,7 @@ const positions = [
   { top: 47, left: 6 }, // 5
   { top: 32, left: 6 }, // 6
   { top: 17, left: 6 }, // 7
-  { top: 7, left: 6 }, // 8 — левый верхний угол
+  { top: 7, left: 6 }, // 8 левый верхний угол
   { top: 7, left: 20 }, // 9
   { top: 7, left: 34 }, // 10
   { top: 7, left: 48 }, // 11
