@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url('../fonts/ofont.ru_Lemon.woff') format('woff');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Ysabeau Office';
+  src: url('../fonts/YsabeauOffice-Medium.woff') format('woff');
+  font-style: Medium;
+  font-weight: 500;
+}

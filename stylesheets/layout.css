@@ -1,0 +1,688 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* секция 1 */
+.section-1 {
+  width: 100vw;
+  height: 70vw;
+  overflow: hidden;
+  background-color: #c0e0ff;
+}
+
+.section-1 h1 {
+  width: 28vw;
+  height: 16vw;
+  font-size: 6.6vw;
+  font-family: 'Lemon Milk';
+  color: #253a82;
+  position: relative;
+  z-index: 5;
+  align-items: center;
+  top: 25.6vw;
+  left: 37vw;
+}
+
+.container-1 {
+  width: 100vw;
+  height: 70vw;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.roofs {
+  position: absolute;
+  width: 100vw;
+  height: 20vw;
+  background-image: url(../images/roofs.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 7;
+}
+.rama {
+  position: absolute;
+  width: 50vw;
+  height: 31vw;
+  background-image: url(../images/rama.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 27vw;
+  top: 20vw;
+}
+
+.chip1 {
+  position: absolute;
+  width: 9vw;
+  height: 9vw;
+  background-image: url(../images/Group\ 7200-1.svg);
+  left: 2vw;
+  top: 21vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.chip2 {
+  position: absolute;
+  width: 11vw;
+  height: 11vw;
+  background-image: url(../images/Group\ 7213.svg);
+  left: 20vw;
+  bottom: 2vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.chip3 {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  background-image: url(../images/Group\ 7202.svg);
+  right: 0vw;
+  bottom: 16vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.apple1 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  background-image: url(../images/Group\ 7200.svg);
+  left: 1vw;
+  top: 35vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.apple2 {
+  position: absolute;
+  width: 16vw;
+  height: 16vw;
+  background-image: url(../images/Group\ 7201.svg);
+  left: 82vw;
+  top: 18vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.apple3 {
+  position: absolute;
+  width: 11vw;
+  height: 11vw;
+  background-image: url(../images/Group\ 7214.svg);
+  right: 11vw;
+  bottom: 1vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.starlamp {
+  position: absolute;
+  width: 7vw;
+  height: 7vw;
+  background-image: url(../images/Star\ 2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 18vw;
+  left: 25.4vw;
+}
+.bt {
+  position: absolute;
+  font-family: 'Ysabeau Office';
+  width: 31vw;
+  height: 9vw;
+  color: #fff6e4;
+  background: #ab9dff;
+  font-size: 2.5vw;
+  bottom: 5vw;
+  left: 36vw;
+  border-radius: 5vw;
+  border: #ab9dff;
+}
+
+/* секция 2 */
+.section-2 {
+  width: 100vw;
+  height: 70vw;
+  overflow: hidden;
+  background-color: #fff6e4;
+}
+.container-2 {
+  width: 100vw;
+  height: 70vw;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.board {
+  position: absolute;
+  width: 86vw;
+  height: 57vw;
+  background-image: url(../images/board.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 7vw;
+  left: 7.5vw;
+}
+.cherry1 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(../images/cherry1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 9vw;
+  left: 38vw;
+}
+.cherry2 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(../images/cherry2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 23vw;
+  left: 81vw;
+}
+.cherry3 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(../images/cherry3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 52vw;
+  left: 52.5vw;
+}
+.cherry4 {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background-image: url(../images/cherry4.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 38vw;
+  left: 10vw;
+}
+.fruits {
+  position: absolute;
+  width: 81vw;
+  height: 53vw;
+  background-image: url(../images/fruits.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 9vw;
+  left: 9.7vw;
+}
+
+.dice {
+  position: absolute;
+  width: 17vw;
+  height: 16vw;
+  background-image: url(../images/dice.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 10vw;
+  right: 2vw;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-position: center;
+  cursor: pointer;
+  z-index: 10;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0;
+}
+
+.pc {
+  position: absolute;
+  width: 10.6vw;
+  height: 12vw;
+  background-image: url(../images/pc.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 2vw;
+  right: 13vw;
+}
+.bluechip {
+  position: absolute;
+  width: 9vw;
+  height: 13vw;
+  background-image: url(../images/bluechip.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 47vw;
+  left: 77vw;
+}
+
+.container-3 {
+  width: 57.2vw;
+  height: 28.5vw;
+  position: relative;
+  top: 21.2vw;
+  left: 21.6vw;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.p1 {
+  width: 19vw;
+  height: 3vw;
+  font-size: 3vw;
+  font-family: 'Lemon Milk';
+  color: #253a82;
+  position: relative;
+  z-index: 5;
+  top: 3vw;
+  left: 3vw;
+}
+.ppp {
+  width: 20vw;
+  height: 3vw;
+  font-size: 1.3vw;
+  font-family: 'Ysabeau Office';
+  color: #253a82;
+  position: relative;
+  z-index: 5;
+  top: 7vw;
+  right: 14.5vw;
+  text-align: start;
+}
+
+.q1,
+.q2,
+.one,
+.five,
+.eight,
+.twelve {
+  position: absolute;
+  width: 4vw;
+  height: 9vw;
+  font-size: 8vw;
+  font-family: 'Lemon Milk';
+  color: #fff6e4;
+}
+
+.q1 {
+  left: 12vw;
+  top: 24.3vw;
+}
+
+.q2 {
+  left: 83.5vw;
+  top: 38.3vw;
+}
+
+.one {
+  left: 69.5vw;
+  top: 53vw;
+}
+.five {
+  left: 12vw;
+  top: 53vw;
+}
+.eight {
+  top: 10.3vw;
+  left: 26.5vw;
+}
+.twelve {
+  top: 10.1vw;
+  left: 82vw;
+}
+
+.start {
+  position: absolute;
+  width: 10vw;
+  height: 3vw;
+  font-size: 3vw;
+  font-family: 'Lemon Milk';
+  color: #fff6e4;
+  left: 81vw;
+  top: 55.3vw;
+  transform: rotate(-90deg);
+}
+.bluechip {
+  position: absolute;
+  width: 8vw;
+  height: 13vw;
+  background-image: url(../images/bluechip.png);
+  left: 76vw;
+  top: 47vw;
+  z-index: 13;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 57vw;
+}
+
+.section-3 {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 57vw;
+  background-color: #c0e0ff;
+  justify-content: center;
+}
+
+.orange {
+  position: absolute;
+  width: 37vw;
+  height: 47vw;
+  background-image: url(../images/orange.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 6vw;
+  top: 9vw;
+}
+
+.texts4 {
+  position: absolute;
+  width: 28vw;
+  height: 7vw;
+  font-size: 2vw;
+  font-family: 'Ysabeau Office';
+  color: #253a82;
+  left: 4vw;
+  top: 8vw;
+}
+.texts3 {
+  position: absolute;
+  width: 33vw;
+  height: 3vw;
+  font-size: 3vw;
+  font-family: 'Lemon Milk';
+  color: #253a82;
+  top: 3vw;
+  left: 4vw;
+}
+
+.stik1 {
+  position: absolute;
+  width: 15vw;
+  height: 9vw;
+  background-image: url(../images/stiker.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 42vw;
+  left: 12vw;
+}
+.stik2 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  background-image: url(../images/stiker2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 17vw;
+  top: 21vw;
+}
+
+.stik3 {
+  position: absolute;
+  width: 12vw;
+  height: 21vw;
+  background-image: url(../images/stiker3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 25.5vw;
+  left: 4.5vw;
+}
+.stik4 {
+  position: absolute;
+  width: 20vw;
+  height: 23vw;
+  background-image: url(../images/stiker5.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 30vw;
+  left: 25vw;
+}
+.section-4 {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 57vw;
+  background-color: #88a2ff;
+}
+.text_caz1 {
+  position: absolute;
+  width: 29vw;
+  height: 3vw;
+  font-size: 3vw;
+  font-family: 'Lemon Milk';
+  color: #fff6e4;
+  top: 3vw;
+  right: 1vw;
+}
+.text_caz2 {
+  position: absolute;
+  width: 26vw;
+  height: 3vw;
+  font-size: 2vw;
+  font-family: 'Ysabeau Office';
+  color: #fff6e4;
+  top: 8vw;
+  right: 4vw;
+  text-align: end;
+}
+.cazik {
+  position: absolute;
+  width: 39vw;
+  height: 40vw;
+  background-image: url(../images/cazik.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 5vw;
+  bottom: 0vw;
+}
+.point {
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  background-image: url(../images/point.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 39vw;
+  right: 7vw;
+}
+.star {
+  position: absolute;
+  width: 42vw;
+  height: 42vw;
+  background-image: url(../images/star.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 13vw;
+  left: 3vw;
+}
+
+.slot {
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 7vw;
+  height: 11vw;
+  background-image: url(../images/slot.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 38.3vw;
+  left: 12.4vw;
+}
+.slot2 {
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 7vw;
+  height: 11vw;
+  background-image: url(../images/slot2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 38.3vw;
+  left: 20.5vw;
+}
+.slot3 {
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 7vw;
+  height: 11vw;
+  background-image: url(../images/slot3.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 38.3vw;
+  left: 28.6vw;
+}
+.track {
+  display: flex;
+  flex-direction: column;
+  transition: transform 2s cubic-bezier(0.1, 0.7, 0.2, 1);
+}
+
+.symbol {
+  width: 7vw;
+  height: 11vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbol img {
+  width: 6vw;
+}
+.section-5 {
+  width: 100vw;
+  height: 70vw;
+  overflow: hidden;
+  background-color: #fff6e4;
+}
+.container-4 {
+  width: 100vw;
+  height: 70vw;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.cards {
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../images/cards.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 2vw;
+  top: 3vw;
+}
+
+.card1,
+.card2,
+.card3 {
+  position: absolute;
+  width: 18vw;
+  height: 27vw;
+  bottom: 2vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card1 {
+  background-image: url(../images/card1.svg);
+  left: 5vw;
+}
+.card2 {
+  background-image: url(../images/card2.svg);
+  left: 29vw;
+}
+.card3 {
+  background-image: url(../images/card3.svg);
+  left: 53vw;
+}
+.text_card1 {
+  width: 37vw;
+  height: 3vw;
+  position: absolute;
+  font-size: 3vw;
+  font-family: 'Lemon Milk';
+  color: #253a82;
+  top: 3vw;
+  left: 2vw;
+}
+.text_card2 {
+  position: absolute;
+  width: 27vw;
+  height: 7vw;
+  font-size: 2vw;
+  font-family: 'Ysabeau Office';
+  color: #253a82;
+  top: 8vw;
+  left: 3.5vw;
+  text-align: start;
+}
+
+.section-6 {
+  width: 100vw;
+  height: 16vw;
+  overflow: hidden;
+  background-color: #ffb2f2;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.name {
+  width: 38vw;
+  height: 10vw;
+  position: absolute;
+  font-size: 4vw;
+  font-family: 'Lemon Milk';
+  color: #fff6e4;
+  text-align: end;
+  right: 2vw;
+  top: 3.5vw;
+}
+
+.hse {
+  position: absolute;
+  width: 26vw;
+  height: 10.5vw;
+  background-image: url(../images/hselogo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 2vw;
+  top: 2.5vw;
+}

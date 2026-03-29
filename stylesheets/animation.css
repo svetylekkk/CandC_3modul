@@ -1,0 +1,199 @@
+/* падающие элементы */
+
+@keyframes fall {
+  from {
+    top: 0vw;
+    transform: rotate(0deg);
+  }
+  to {
+    top: 65vw;
+    transform: rotate(360deg);
+  }
+}
+
+.apple1 {
+  animation-name: fall;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.apple2 {
+  animation-name: fall;
+  animation-duration: 9s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.apple3 {
+  animation-name: fall;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.chip1 {
+  animation-name: fall;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.chip2 {
+  animation-name: fall;
+  animation-duration: 11s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.chip3 {
+  animation-name: fall;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.starlamp {
+  animation: starCorners 4s steps(1) infinite;
+}
+@keyframes starCorners {
+  0% {
+    top: 18vw;
+    left: 25.4vw;
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
+
+  25% {
+    top: 18vw;
+    left: 70.2vw;
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
+
+  50% {
+    top: 45vw;
+    left: 70.2vw;
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
+
+  75% {
+    top: 45vw;
+    left: 25.4vw;
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
+
+  100% {
+    top: 18vw;
+    left: 25.4vw;
+    opacity: 0;
+  }
+}
+
+/* МОДАЛКА */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(37, 58, 130, 0.32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+  z-index: 1000;
+}
+
+.modal.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal-content {
+  position: relative;
+  width: 42vw;
+  min-height: 14vw;
+  background: #fff6e4;
+  border: 0.35vw solid #253a82;
+  border-radius: 2vw;
+  padding: 3vw 2.5vw;
+  box-sizing: border-box;
+  box-shadow: 0 1vw 3vw rgba(0, 0, 0, 0.15);
+}
+
+.modal-content p {
+  margin: 0;
+  font-family: 'Ysabeau Office';
+  font-size: 2vw;
+  line-height: 1.25;
+  color: #253a82;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.8vw;
+  right: 1vw;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 2.4vw;
+  line-height: 1;
+  color: #253a82;
+}
+
+@keyframes rollDiceAnim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+.dice.rolling {
+  animation: rollDiceAnim 1.5s ease-in-out forwards;
+}
+
+.star {
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.stik1,
+.stik2,
+.stik3,
+.stik4 {
+  cursor: pointer;
+  transition:
+    transform 0.8s ease,
+    opacity 0.8s ease;
+}
+
+.sticker-fall {
+  transform: translateY(40vw) rotate(20deg);
+  opacity: 0;
+}

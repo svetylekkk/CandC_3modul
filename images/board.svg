@@ -1,0 +1,18 @@
+<svg width="1229" height="819" viewBox="0 0 1229 819" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="614" width="205" height="205" fill="#FFB2F2"/>
+<rect y="410" width="205" height="204" fill="#253A82"/>
+<rect y="205" width="205" height="205" fill="#C0E0FF"/>
+<rect width="205" height="205" fill="#AB9DFF"/>
+<rect x="410" width="205" height="205" transform="rotate(90 410 0)" fill="#FFB2F2"/>
+<rect x="614" width="205" height="204" transform="rotate(90 614 0)" fill="#253A82"/>
+<rect x="819" width="205" height="205" transform="rotate(90 819 0)" fill="#C0E0FF"/>
+<rect x="1229" width="205" height="205" transform="rotate(90 1229 0)" fill="#FFB2F2"/>
+<rect x="1024" width="205" height="205" transform="rotate(90 1024 0)" fill="#AB9DFF"/>
+<rect x="205" y="614" width="205" height="205" fill="#AB9DFF"/>
+<rect x="615" y="614" width="205" height="205" transform="rotate(90 615 614)" fill="#C0E0FF"/>
+<rect x="819" y="614" width="205" height="204" transform="rotate(90 819 614)" fill="#253A82"/>
+<rect x="1024" y="614" width="205" height="205" transform="rotate(90 1024 614)" fill="#FFB2F2"/>
+<rect x="1229" y="410" width="205" height="205" transform="rotate(90 1229 410)" fill="#C0E0FF"/>
+<rect x="1229" y="614" width="205" height="205" transform="rotate(90 1229 614)" fill="#AB9DFF"/>
+<rect x="1229" y="205" width="205" height="205" transform="rotate(90 1229 205)" fill="#253A82"/>
+</svg>
