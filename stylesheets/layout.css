@@ -635,16 +635,15 @@ html {
 
 .card1 .cardFlip-inside--front {
   background-image: url(../images/card1.svg);
-  left: 5vw;
 }
+
 .card2 .cardFlip-inside--front {
   background-image: url(../images/card2.svg);
-  left: 2.5vw;
 }
+
 .card3 .cardFlip-inside--front {
   background-image: url(../images/card3.svg);
 }
-
 .card1 .cardFlip-inside--back {
   background-image: url(../images/back1.svg);
 }
@@ -659,7 +658,9 @@ html {
   height: 70vw;
   background-color: #fff6e4;
 }
-
+.cardFlip-content.is-flipped {
+  transform: rotateY(180deg);
+}
 .cards {
   position: absolute;
   width: 30vw;
